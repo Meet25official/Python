@@ -24,7 +24,7 @@ text = "\nPython is the way for Data Science."
 new_text = text.replace('e','@')
 print(new_text) 
 
-""" C:\Users\meets\Desktop\python>python -u "c:\Users\meets\Desktop\python\task1.py"
+""" 
 ANS 1: 
 yt
 

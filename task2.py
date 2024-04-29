@@ -106,7 +106,11 @@ stu = input("Enter student gender (B/G): ")
 if (QC == 1 or QC == 2) and stu == 'B':
     print("Good")
 elif (QC == 3 or QC == 4) and stu == 'G':
-    print("Need improvement")
+    if QC == 4:
+        print("Fair")
+    else:
+        print("Need improvement")
+    
 else:
     print("Bad")
 
